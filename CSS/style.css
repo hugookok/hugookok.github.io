@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(194, 243, 255);
+  }
+
+
+.smallfont {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:2vw;
+    font-size: max(1.5vw, 18px);
+    color: rgb(30, 60, 105);
+
+  }
+.bigfont {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(30, 60, 105);
+    font-size:3vw;
+    font-size: max(2vw, 23px);
+}
+li {
+    display: inline;
+
+  }
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+.navlink{
+    color: #0060B6;
+    text-decoration: none;
+}
+.navlink:hover 
+{
+     color:#000000; 
+     text-decoration:none; 
+     cursor:pointer;  
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: #0060B6;
+    text-decoration: none;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(194, 243, 255);
+    min-width: 65px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 30px;
+    border: 3px solid white;
+
+}
+  
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown:hover{
+    color:#000000; 
+    text-decoration:none; 
+    cursor:pointer;  
+
+}
+.menufont{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:2vw;
+    font-size: max(1.5vw, 15px);
+    color: rgb(30, 60, 105);
+
+}
